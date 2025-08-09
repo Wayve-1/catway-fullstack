@@ -88,7 +88,7 @@ export const fetchCatways = async (token) => {
 
 export const getCatways = async () => {
   const token = localStorage.getItem("token");
-  const response = await fetch("http://localhost:5000/catways", {
+  const response = await fetch(`${API_URL}/catways`, {
     headers: {
       "Content-Type": "application/json",
       Authorization: `Bearer ${token}`,
