@@ -33,7 +33,7 @@ cd backend
 npm install
 
 Créer un fichier .env :
-MONGO_URI=mongodb+srv://<user>:<password>@<cluster>/catway
+MONGO_URI=mongodb+srv://admin:motdepasse123@catwaydb.pyrn2g8.mongodb.net/catway-fullstack?retryWrites=true&w=majority&appName=CatwayDB
 PORT=5000
 
 
@@ -67,3 +67,4 @@ Frontend : React, Vite, Axios
 Backend : Node.js, Express, MongoDB, Mongoose
 
 Déploiement : Vercel (frontend) & Render (backend)
+
